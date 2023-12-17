@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>booksky</title>
+    <link rel="stylesheet" href="style.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="header">
+        <h1>BOOKSKEY</h1>
+    </div>
+    <div class="container">
+        <div class="book1">
+            <h2> The Wing Of Fire</h2>
+            <h5> Arun Tiwari</h5>
+            <p>The 'Wings of Fire' is one such autobiography by visionary scientist Dr. APJ Abdul Kalam, who from very humble beginnings rose to be the President of India. The book is full of insights, personal moments and life experiences of Dr. Kalam.</p>
+            <button onclick="del(event)">Delete</button>
+        </div>
+
+    </div>
+    <button type="button" id="btn">+</button>
+    <div class="cover"></div>
+    <div class="popup">
+        <h2> Add Book</h2>
+        <form>
+        <input type="text" id="bookname" placeholder="Enter Book Name">
+        <input type="text" id="author" placeholder="Enter Author Name">
+        <textarea placeholder="Enter Discription" id="dis" cols="30" rows="7"></textarea>
+        <button type="button" id="adding"> Add</button>
+        <button type="button" id="remove"> Delete</button>
+    </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
